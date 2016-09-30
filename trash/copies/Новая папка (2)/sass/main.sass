@@ -1,0 +1,45 @@
+body
+  margin: 0
+h1
+ // margin: 0
+a
+  text-decoration: none
+a:hover, a:visited
+  //text-decoration: none !important does not work for visited
+  //color: yellow !important
+header
+  background-image: url("../images/header-bg.jpg")
+  height: 931px
+  background-position: center top
+  background-size: cover
+  min-height: 640px //what for?
+  color: #fff
+  font-family: "montserrat", sans-serif
+  .logo_and_nav
+    margin-top: 50px
+    .logo
+      display: block
+      color: #ff7200
+      text-transform: uppercase
+      height: 48px
+      line-height: 48px
+      font-size: 25px
+      border: solid 1px #fff
+      text-align: center
+      width: 122px
+    .nav
+      display: inline-block
+      float: right
+      margin: 0
+      text-transform: uppercase
+      ul
+        list-style-type: none
+        li
+          display: inline-block
+          margin-right: 62px
+        li:last-child
+          margin-right: 0
+        a 
+          color: #fff
+        a:active
+          color: #ff7200

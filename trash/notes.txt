@@ -1,0 +1,8 @@
+psd I use C:\Files\С ноутбука\Документы\Литература\Программирование\03.11.14\Html\Макеты\business sites\01_Home
+
+
+fonts
+nav Montserrat Reg
+
+To do list
+- make links highlighted depending on a current page and underline animaiton

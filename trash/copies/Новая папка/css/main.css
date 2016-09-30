@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-image: url("../images/header-bg.jpg");
+  height: 931px;
+  background-position: center top;
+  background-size: cover;
+  min-height: 640px;
+  color: #fff;
+}
+
+header .logo {
+  display: inline-block;
+  color: #ff7200;
+  text-transform: uppercase;
+}
+
+header .nav {
+  display: inline-block;
+  float: right;
+  margin: 0;
+}
+
+header .nav ul {
+  list-style-type: none;
+}
+
+header .nav ul li {
+  display: inline-block;
+}
+
+.clear{clear: both;}

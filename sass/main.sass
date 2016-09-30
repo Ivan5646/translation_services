@@ -1,0 +1,78 @@
+html, body
+  margin: 0
+  padding: 0
+  height: 100%
+h1
+ // margin: 0
+a
+  text-decoration: none
+a:hover, a:visited
+  //text-decoration: none !important does not work for visited
+  //color: yellow !important
+header
+  background-image: url("../images/header-bg.jpg")
+  height: 931px
+  background-position: center top
+  background-size: cover
+  min-height: 640px //what for?
+  color: #fff
+  font-family: "montserrat", sans-serif
+  position: relative
+  .cont_wrapper
+    position: relative
+    height: 931px
+    .logo_and_nav
+      margin-top: 50px
+      .logo
+        display: block
+        color: #ff7200
+        text-transform: uppercase
+        height: 48px
+        line-height: 48px
+        font-size: 25px
+        border: solid 1px #fff
+        text-align: center
+        width: 122px
+      .nav
+        display: inline-block
+        float: right
+        margin: 0
+        text-transform: uppercase
+        ul
+          list-style-type: none
+          li
+            display: inline-block
+            margin-right: 62px
+          li:last-child
+            margin-right: 0
+          a 
+            color: #fff
+          a:active
+            color: #ff7200
+  h1
+    font-family: "montserrat", sans-serif
+    font-size: 52px;
+    //margin: 0 auto
+    text-align: center
+  .center_row
+    position: absolute
+    top: 0
+    left: 0
+    bottom: 0
+    right: 0
+    height: 350px
+    width: 1000px
+    margin: auto
+    border: 1px solid red 
+    p, button
+      text-align: center
+    button
+      height: 48px
+      line-height: 48px
+      background-color: #ff7200
+      padding: 0 62px
+      border-style: none
+      letter-spacing: 2px
+      text-transform: uppercase
+
+

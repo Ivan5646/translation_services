@@ -1,0 +1,85 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  background-image: url("../images/header-bg.jpg");
+  height: 931px;
+  background-position: center top;
+  background-size: cover;
+  min-height: 640px;
+  color: #fff;
+  font-family: "montserrat", sans-serif;
+  position: relative;
+}
+
+header .cont_wrapper {
+  position: relative;
+  height: 931px;
+}
+
+header .cont_wrapper .logo_and_nav {
+  margin-top: 50px;
+}
+
+header .cont_wrapper .logo_and_nav .logo {
+  display: block;
+  color: #ff7200;
+  text-transform: uppercase;
+  height: 48px;
+  line-height: 48px;
+  font-size: 25px;
+  border: solid 1px #fff;
+  text-align: center;
+  width: 122px;
+}
+
+header .cont_wrapper .logo_and_nav .nav {
+  display: inline-block;
+  float: right;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+header .cont_wrapper .logo_and_nav .nav ul {
+  list-style-type: none;
+}
+
+header .cont_wrapper .logo_and_nav .nav ul li {
+  display: inline-block;
+  margin-right: 62px;
+}
+
+header .cont_wrapper .logo_and_nav .nav ul li:last-child {
+  margin-right: 0;
+}
+
+header .cont_wrapper .logo_and_nav .nav ul a {
+  color: #fff;
+}
+
+header .cont_wrapper .logo_and_nav .nav ul a:active {
+  color: #ff7200;
+}
+
+header h1 {
+  font-family: "montserrat", sans-serif;
+  font-size: 52px;
+}
+
+header .center_row {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 350px;
+  margin: auto;
+  border: 1px solid red;
+}
